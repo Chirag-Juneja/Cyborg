@@ -16,10 +16,11 @@ check_status(){
 	if [ $? -eq 0 ]
 	then
 	        echo -e $FONT_GREEN
-	        echo "apt-get update completed!"
+	        echo "Process Completed!"
 	else
 	        echo -e $FONT_RED
-	        echo "[ERROR] apt-get update failed!"
+	        echo "[ERROR] Process Failed!"
+		exit 1
 	fi
 }
 
@@ -66,8 +67,9 @@ cleanup(){
 }
 
 end(){
-	echo -e $FONT_YELLOW
-	echo "system upgrade complete!"
+	echo -e $FONT_GREEn
+	echo "System Upgrade Completed!"
+	echo "Bye! $USER"
 }
 
 welcome
