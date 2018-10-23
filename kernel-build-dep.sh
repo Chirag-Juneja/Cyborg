@@ -45,3 +45,9 @@ echo -e $FONT_BLUE
 echo "make"
 echo -e $FONT_RESET
 sudo apt-get install make -y;
+
+echo -e $FONT_BLUE
+echo "bzip2"
+echo -e $FONT_RESET
+sudo apt-get install bzip2 -y;
+
