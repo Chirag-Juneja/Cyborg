@@ -69,7 +69,7 @@ cleanup(){
 end(){
 	echo -e $FONT_GREEn
 	echo "System Upgrade Completed!"
-	echo "Bye! $USER"
+	echo "Bye $USER!"
 }
 
 welcome
